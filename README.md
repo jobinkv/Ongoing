@@ -42,14 +42,14 @@ Resnet 152 +PPM+SPP|?|?|
 <sup>*</sup> learnable convolution layer --> slow converge
 ___
 #### SPP
-![SPP](https://github.com/jobinkv/DocFigure/blob/master/pic1.png)
+![SPP](pic1.png)
 
 
 *A network structure with a spatial pyramid
 pooling layer (SPP). Here 512 for VGG and 2048 or resnet is the filter number of the last convolutional layer.* [refer](https://arxiv.org/pdf/1406.4729.pdf)
 ___
 #### PPM
-![SPP](https://github.com/jobinkv/DocFigure/blob/master/pic2.png)
+![SPP](pic2.png)
 
 
 *A pyramid parsing module (PPM) is applied to harvest different sub-region representations, followed by upsampling and concatenation layers to form the final feature representation, which carries both local and global context information* [refer](https://arxiv.org/pdf/1612.01105.pdf)
@@ -57,7 +57,7 @@ ___
 
 ___
 #### SCN
-![SPP](https://github.com/jobinkv/DocFigure/blob/master/pic3.png)
+![SPP](pic3.png)
 
 
 *A sparse coding network (SCN) is applied to encode the deep convolutional features* [refer](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)
