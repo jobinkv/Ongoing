@@ -60,4 +60,4 @@ ___
 ![SPP](pic3.png)
 
 
-*A sparse coding network (SCN) is applied to encode the deep convolutional features* [Boheng Chen1 19](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)
+*A sparse coding network (SCN) is applied to encode the deep convolutional features* [Boheng Chen 19](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)
