@@ -33,6 +33,8 @@ VGG-VD +PPM|?|[64.62](http://10.2.16.142/r1/ijdar/216686.html)|
 VGG-VD<sup>*</sup> +PPM|?|[60.19](http://10.2.16.142/r1/ijdar/216648.html)|
 VGG-VD +SPP |?|?|
 VGG-VD +PPM+SPP|?|?|
+VGG-VD +SCN+SPP|?|?|
+VGG-VD +PPM+SCN+SPP|?|?|
 Resnet 152 finetune|[86.5](http://10.2.16.142/r1/ijdar/215833.html)|[80.91](http://10.2.16.142/r1/ijdar/215918.html)|
 Resnet 152 +PPM|?|?|
 Resnet 152 +SPP|?|?|
