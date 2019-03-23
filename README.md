@@ -40,7 +40,7 @@ Experiment setup|Caltech-101|Caltech-256|
 FV-CNN on VGG_VD|86.69|214673|
 FV+FC-CNN on VGG_VD|92.34|?|
 VGG-VD fineturn|[75.13](http://10.2.16.142/r1/ijdar/215776.html)|[65.27](http://10.2.16.142/r1/ijdar/216041.html)|
-VGG-VD +PPM|[81.02](http://10.2.16.142/r1/ijdar/216766.html)|[64.62](http://10.2.16.142/r1/ijdar/216686.html)|
+VGG-VD +[PPM](#ppm)|[81.02](http://10.2.16.142/r1/ijdar/216766.html)|[64.62](http://10.2.16.142/r1/ijdar/216686.html)|
 VGG-VD<sup>*</sup> +PPM|?|[60.19](http://10.2.16.142/r1/ijdar/216648.html)|
 VGG-VD +SPP |?|?|
 VGG-VD +PPM+SPP|?|?|
