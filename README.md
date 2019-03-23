@@ -39,6 +39,8 @@ Resnet 152 finetune|[86.5](http://10.2.16.142/r1/ijdar/215833.html)|[80.91](http
 Resnet 152 +PPM|?|?|
 Resnet 152 +SPP|?|?|
 Resnet 152 +PPM+SPP|?|?|
+Resnet 152 +SCN+SPP|?|?|
+Resnet 152 +PPM+SCN+SPP|?|?|
 
 
 <sup>*</sup> learnable convolution layer --> slow converge
