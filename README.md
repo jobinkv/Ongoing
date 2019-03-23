@@ -23,17 +23,17 @@ Paper|Caltech-101 |caltech 256|
 
 ## Experiment 1
 ### General experimental setup
-Input image size set to $224\times224$ for all experiment except FV-CNN and FV+FC-CNN.
+Input image size set to 224*224 for all experiment except FV-CNN and FV+FC-CNN.
 
 |Exp params|Value|
 |--|--|
 |Learning rate| 0.005
 | train_batch_size | 16 |
-|input_size|$224\times224$|
+|input_size|224*224|
 |weight decay|0.0001|
 |lr decay|0|
 |momentum|0.9|
-
+ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 Experiment setup|Caltech-101|Caltech-256|
 |--|--|--|
