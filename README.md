@@ -19,11 +19,12 @@ The result reported in respective papers for Caltech dataset
 Paper|Caltech-101 |caltech 256|
 |--|--|--|
 [Deep-Ten](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Deep_TEN_Texture_CVPR_2017_paper.pdf)|83.0|?|
-[E2E-SCN-SPP](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)|90.3|81.2
+[E2E-SCN-SPP](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)|90.3|81.2|
 
 ## Experiment 1
 ### General experimental setup
 Input image size set to $224\times224$ for all experiment except FV-CNN and FV+FC-CNN.
+
 |Exp params|Value|
 |--|--|
 |Learning rate| 0.005
