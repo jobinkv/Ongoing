@@ -22,6 +22,16 @@ Paper|Caltech-101 |caltech 256|
 [E2E-SCN-SPP](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)|90.3|81.2
 
 ## Experiment 1
+### General experimental setup
+Input image size set to $224\times224$ for all experiment except FV-CNN and FV+FC-CNN.
+|Exp params|Value|
+|--|--|
+|Learning rate| 0.005
+| train_batch_size | 16 |
+|input_size|$224\times224$|
+|weight decay|0.0001|
+|lr decay|0|
+|momentum|0.9|
 
 
 Experiment setup|Caltech-101|Caltech-256|
