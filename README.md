@@ -25,6 +25,7 @@ Paper|Caltech-101 |caltech 256|
 ### General experimental setup
 Input image size set to 224&times;224 for all experiment except FV-CNN and FV+FC-CNN.
 The convolutional network for feature extraction are not trainable.
+
 |Exp params|Value|
 |--|--|
 |Learning rate| 0.005
