@@ -43,14 +43,14 @@ FV+FC-CNN on VGG_VD|92.34|?|
 VGG-VD fineturn|[75.13](http://10.2.16.142/r1/ijdar/215776.html)|[65.27](http://10.2.16.142/r1/ijdar/216041.html)|
 VGG-VD +[PPM](#ppm)|[81.02](http://10.2.16.142/r1/ijdar/216766.html)|[64.62](http://10.2.16.142/r1/ijdar/216686.html)|
 VGG-VD<sup>*</sup> +[PPM](#ppm)|?|[60.19](http://10.2.16.142/r1/ijdar/216648.html)|
-VGG-VD +[SPP](#spp) |[81.23](http://10.2.16.142/r1/ijdar/217404.html)|?|
-VGG-VD +[PPM](#ppm)+[SPP](#spp)|[81.85](http://10.2.16.142/r1/ijdar/217402.html)|?|
+VGG-VD +[SPP](#spp) |[81.23](http://10.2.16.142/r1/ijdar/217404.html)|[66.41](http://10.2.16.142/r1/ijdar/217405.html)|
+VGG-VD +[PPM](#ppm)+[SPP](#spp)|[81.85](http://10.2.16.142/r1/ijdar/217402.html)|[62.89](http://10.2.16.142/r1/ijdar/217403.html)|
 VGG-VD +[SCN](#scn)+[SPP](#spp)|?|?|
 VGG-VD +[PPM](#ppm)+[SCN](#scn)+[SPP](#spp)|?|?|
 Resnet 152 finetune|[86.5](http://10.2.16.142/r1/ijdar/215833.html)|[80.91](http://10.2.16.142/r1/ijdar/215918.html)|
 Resnet 152 +[PPM](#ppm)|[88.32](http://10.2.16.142/r1/ijdar/217200.html)|[77.69](http://10.2.16.142/r1/ijdar/217251.html)|
-Resnet 152 +[SPP](#spp)|[89.88](http://10.2.16.142/r1/ijdar/217174.html)|?|
-Resnet 152 +[PPM](#ppm)+[SPP](#spp)|[90.85](http://10.2.16.142/r1/ijdar/217263.html)|?|
+Resnet 152 +[SPP](#spp)|[89.88](http://10.2.16.142/r1/ijdar/217174.html)|[81.26](http://10.2.16.142/r1/ijdar/217407.html)|
+Resnet 152 +[PPM](#ppm)+[SPP](#spp)|[90.85](http://10.2.16.142/r1/ijdar/217263.html)|[79.91](http://10.2.16.142/r1/ijdar/217406.html)|
 Resnet 152 +[SCN](#scn)+[SPP](#spp)|?|?|
 Resnet 152 +[PPM](#ppm)+[SCN](#scn)+[SPP](#spp)|?|?|
 
