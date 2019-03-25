@@ -50,7 +50,7 @@ VGG-VD +[PPM](#ppm)+[SPP](#spp)|[81.85](http://10.2.16.142/r1/ijdar/217402.html)
 VGG-VD +[SCN](#scn)+[SPP](#spp)|?|?|
 VGG-VD +[PPM](#ppm)+[SCN](#scn)+[SPP](#spp)|?|?|
 Resnet 152 finetune|[86.5](http://10.2.16.142/r1/ijdar/215833.html)|[80.91](http://10.2.16.142/r1/ijdar/215918.html)|
-Resnet 152 +[PPM](#ppm)|[88.32](http://10.2.16.142/r1/ijdar/217200.html)|[77.69](http://10.2.16.142/r1/ijdar/217251.html)|
+Resnet 152 +[PPM](#ppm)|[88.32](http://10.2.16.142/r1/ijdar/217200.html)|[84.26](http://10.2.16.142/r1/ijdar/217573.html)|
 Resnet 152 +[SPP](#spp)|[89.88](http://10.2.16.142/r1/ijdar/217174.html)|[81.26](http://10.2.16.142/r1/ijdar/217407.html)|
 Resnet 152 +[PPM](#ppm)+[SPP](#spp)|[90.85](http://10.2.16.142/r1/ijdar/217263.html)|[79.91](http://10.2.16.142/r1/ijdar/217406.html)|
 Resnet 152 +[SCN](#scn)+[SPP](#spp)|?|?|
