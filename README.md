@@ -77,3 +77,46 @@ ___
 
 
 *A sparse coding network (SCN) is applied to encode the deep convolutional features* [Boheng Chen 19](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)
+
+```javascript
+class _SparseCodingModule(nn.Module):
+    def __init__(self,in_dim, code_len, no_iterations):
+        super(_SparseCodingModule, self).__init__()
+        self.w_d = nn.Sequential(nn.Conv2d(in_dim,code_len, kernel_size=1, bias=False),
+                        nn.Dropout(0.5)
+                         )   
+        self.w_s1 = nn.Sequential(
+                nn.ReLU(),
+                nn.Conv2d(code_len, code_len, kernel_size=1, bias=False),
+                nn.Dropout(0.5)
+                        )   
+        self.final_relu = nn.Sequential(nn.ReLU())
+        self.w_s = []
+        self.w_g = []
+        for s in range(0,no_iterations-1):
+            self.w_s.append(nn.Sequential(
+                nn.ReLU(),
+                nn.Conv2d(code_len, code_len, kernel_size=1, bias=False),
+                nn.Dropout(0.5)
+                ))  
+            self.w_g.append(nn.Sequential(
+                nn.ReLU(),
+                nn.Conv2d(code_len, code_len, kernel_size=1, bias=False),
+                nn.Dropout(0.5)
+                ))  
+        self.w_s = nn.ModuleList(self.w_s)
+        self.w_g = nn.ModuleList(self.w_g)
+
+    def forward(self, x): 
+        x = self.w_d(x)
+        inp_wg = x 
+        inp_ws = x 
+        out_ws = self.w_s1(inp_ws)
+        out_wg = 0 
+        for w_s, w_g in zip(self.w_s, self.w_g):
+            inp_ws = out_ws+x+out_wg
+            out_wg = w_g(inp_wg)
+            inp_wg = inp_ws
+            inp_ws = w_s(inp_ws)+x+out_wg
+        return self.final_relu(inp_ws)           
+```
