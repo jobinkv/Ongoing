@@ -20,6 +20,11 @@ Paper|Caltech-101 |caltech 256|
 |--|--|--|
 [Deep-Ten](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Deep_TEN_Texture_CVPR_2017_paper.pdf)|83.0|?|
 [E2E-SCN-SPP](https://link.springer.com/content/pdf/10.1007%2Fs11063-018-9967-5.pdf)|90.3|81.2|
+### Result of FV-CNN reported in our experiment
+Experiment setup|Caltech-101|Caltech-256|
+|--|--|--|
+FV-CNN on VGG_VD|86.69|214673|
+FV+FC-CNN on VGG_VD|92.34|?|
 
 ## Experiment 1
 ### General experimental setup
@@ -38,8 +43,6 @@ The convolutional network for feature extraction are not trainable.
 
 Experiment setup|Caltech-101|Caltech-256|
 |--|--|--|
-FV-CNN on VGG_VD|86.69|214673|
-FV+FC-CNN on VGG_VD|92.34|?|
 VGG-VD fineturn|[75.13](http://10.2.16.142/r1/ijdar/215776.html)|[65.27](http://10.2.16.142/r1/ijdar/216041.html)|
 VGG-VD +[PPM](#ppm)|[81.02](http://10.2.16.142/r1/ijdar/216766.html)|[64.62](http://10.2.16.142/r1/ijdar/216686.html)|
 VGG-VD +[SPP](#spp) |[81.23](http://10.2.16.142/r1/ijdar/217404.html)|[66.41](http://10.2.16.142/r1/ijdar/217405.html)|
