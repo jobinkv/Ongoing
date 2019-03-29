@@ -1,6 +1,6 @@
 # A breaf article on on-going work and it's progress.
 
-### [Deep feature experiments and results](deepFeatureEXP.md)
+# [Deep feature experiments and results on caltech dataset](deepFeatureEXP.md)
 
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
