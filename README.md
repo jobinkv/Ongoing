@@ -4,7 +4,7 @@
 
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
-|approach|accuracy|accuracy with inetuning|
+|approach|accuracy|accuracy with finetuning|
 |--|--|--|
 FC VGG 19 | 60.28\%|?|
 FV+FC VGG 19|74.10\%|?|
