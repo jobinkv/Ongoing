@@ -4,7 +4,7 @@
 
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
-|approach|accuracy|accuracy with finetuning|Finetune with [res2net](res2net) layer|
+|approach|accuracy|accuracy with finetuning|Finetune with [res2net](#res2net) layer|
 |--|--|--|--|
 FC VGG 19 | 60.28\%|?|?|
 FV+FC VGG 19|74.10\%|?|?|
@@ -14,7 +14,7 @@ Densenet|?|?|?|
 # Res2Net
 The [paper](https://arxiv.org/pdf/1904.01169.pdf) propose an hierarchical residual-like
 connections within one single residual block
-
+![Res2net](pic1.png)
 
 
 # Related links
