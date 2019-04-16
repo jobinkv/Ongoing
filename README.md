@@ -5,7 +5,7 @@
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
 |approach|accuracy(matlab)|accuracy(pytorch)|accuracy with finetuning|Finetune with [res2net](#res2net) layer|
-|--|--|--|--|
+|--|--|--|--|--|
 FC VGG 19 | 60.28\%|60\%|?|?|
 FV+FC VGG 19|74.10\%|50\%|?|?|
 Resnet 152|?|?|?|?|
