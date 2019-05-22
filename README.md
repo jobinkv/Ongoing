@@ -8,7 +8,7 @@ We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 |--|--|--|--|--|
 FC VGG 19 | 60.28\%|61%|?|?|
 FV+FC VGG 19|74.10\%|74%|?|?|
-FV VGG 19|73.35\%(fv nornal)|73%|?|
+FV VGG 19|73.35\%|73%|?|
 Resnet 152|?|?|?|?|
 Densenet|?|?|?|?|
 
