@@ -11,7 +11,7 @@ VGG 19 (FV)|74%|75%|?|
 VGG 19 (FV+FC)|74%|87\%|?|
 Resnet 152 (FC)|67\%|69\%|?|
 Resnet 152 (FV)|68%|72\%|?|
-Densenet|?|?|?|
+densenet161 (FV)|68\%|?|?|
 
 # Res2Net
 The [paper](https://arxiv.org/pdf/1904.01169.pdf) propose an hierarchical residual-like
