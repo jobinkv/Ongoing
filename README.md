@@ -18,7 +18,7 @@ The [paper](https://arxiv.org/pdf/1904.01169.pdf) propose an hierarchical residu
 connections within one single residual block
 ![Res2net](pic1.png)
 
-```
+```javascript
 import torch
 from torch import nn
 
