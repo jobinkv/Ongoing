@@ -12,7 +12,7 @@ We chose the dataset of RVL CDIP. This dataset contains 400K images in wich 320K
 
 
 |approach|accuracy|accuracy with finetuning|
-|--|--|--|--|
+|--|--|--|
 VGG 19 (FC)|61%|87%|
 VGG 19 (FV)|74%|75%|
 VGG 19 (FV+FC)|74%|87\%|
