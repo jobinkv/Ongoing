@@ -12,8 +12,8 @@ We chose the dataset of RVL CDIP. This dataset contains 400K images in wich 320K
 
 # Result
 The result are given in the below table.
-FC - indicate the feature extracted from the fully connected layer
-FV - indicate the feature extracted from the convolutional layer with Fisher vector pooling.
+* FC - indicate the feature extracted from the fully connected layer
+* FV - indicate the feature extracted from the convolutional layer with Fisher vector pooling.
 
 |approach|accuracy|accuracy with finetuning|
 |--|--|--|
