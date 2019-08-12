@@ -12,4 +12,4 @@ VGG 19 (FV+FC)|74%|87\%|?|
 Resnet 152 (FC)|67\%|69\%|?|
 Resnet 152 (FV)|68%|72\%|?|
 densenet161 (FV)|68\%|?|?|
-DFL[https://arxiv.org/pdf/1611.09932.pdf]|92.6%|.|?|
+[DFL](https://arxiv.org/pdf/1611.09932.pdf)|92.6%|.|?|
