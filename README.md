@@ -19,6 +19,7 @@ optimizer : Stochastic gradient decent. <br />
 |approach|accuracy|
 |--|--|
 |[DFL](https://scholar.googleusercontent.com/scholar.bib?q=info:NMEU4q_QWJ4J:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlNymcI:AAGBfm0AAAAAXYB3gcJeNkJb4Uq_qX8VTk3HgSErjBw6&scisig=AAGBfm0AAAAAXYB3gcqSiLvSqEUVQM62LdniOwcxFM4N&scisf=4&ct=citation&cd=-1&hl=en)|91.73%|
+|[TEN](https://scholar.googleusercontent.com/scholar.bib?q=info:gRUOCuIJ_ZAJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN9Wcc:AAGBfm0AAAAAXYB4QcdfG4aNs2C2hzVNXuVcvvtfRsHS&scisig=AAGBfm0AAAAAXYB4QQVQonrJ05r0prM986tNqnWYTet9&scisf=4&ct=citation&cd=-1&hl=en)|?%|
 |[DFL](https://scholar.googleusercontent.com/scholar.bib?q=info:NMEU4q_QWJ4J:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlNymcI:AAGBfm0AAAAAXYB3gcJeNkJb4Uq_qX8VTk3HgSErjBw6&scisig=AAGBfm0AAAAAXYB3gcqSiLvSqEUVQM62LdniOwcxFM4N&scisf=4&ct=citation&cd=-1&hl=en)+[TEN](https://scholar.googleusercontent.com/scholar.bib?q=info:gRUOCuIJ_ZAJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN9Wcc:AAGBfm0AAAAAXYB4QcdfG4aNs2C2hzVNXuVcvvtfRsHS&scisig=AAGBfm0AAAAAXYB4QQVQonrJ05r0prM986tNqnWYTet9&scisf=4&ct=citation&cd=-1&hl=en)|91.85%|
 
 
