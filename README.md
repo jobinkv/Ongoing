@@ -11,7 +11,7 @@ Input image size: 224*224<br />
 batch size: 32<br />
 momentum: 0.9<br />
 learning rate: 0.005<br />
-learning rate update: [ref](https://scholar.googleusercontent.com/scholar.bib?q=info:rxYcO-LPyYMJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN2ws8:AAGBfm0AAAAAXYBz2s8jn5zP6cRsjA6kfPmVZIR7CY-b&scisig=AAGBfm0AAAAAXYBz2gr2xbnG5boA2rp2KQFtq2fFYpOy&scisf=4&ct=citation&cd=-1&hl=en)<br />
+learning rate update: cosine decay [ref](https://scholar.googleusercontent.com/scholar.bib?q=info:rxYcO-LPyYMJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN2ws8:AAGBfm0AAAAAXYBz2s8jn5zP6cRsjA6kfPmVZIR7CY-b&scisig=AAGBfm0AAAAAXYBz2gr2xbnG5boA2rp2KQFtq2fFYpOy&scisf=4&ct=citation&cd=-1&hl=en)<br />
 loss: cross entropy loss <br />
 Maximum number o iterations: 10 <br />
 optimizer : Stochastic gradient decent. <br />
