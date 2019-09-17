@@ -7,7 +7,7 @@ Aim: Compare with state of the art approaches.
 Dataset: rvlcdip <br />
 Main parameters:<br />
 Network: resnext101 trained on rvlcdip dataset (91.18%).<br />
-Input image size: 224*224<br />
+Input image size: **224*224**<br />
 batch size: 32<br />
 momentum: 0.9<br />
 learning rate: 0.005<br />
@@ -29,7 +29,7 @@ Aim: Compare with state of the art approaches.
 Dataset: rvlcdip <br />
 Main parameters:<br />
 Network: resnext101 trained on rvlcdip dataset (91.18%).<br />
-Input image size: 384*384<br />
+Input image size: **384*384**<br />
 batch size: 32<br />
 momentum: 0.9<br />
 learning rate: 0.005<br />
