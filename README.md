@@ -1,3 +1,8 @@
+# Document image classification
+
+The article can be found [here](DocumentImageClassification.md)
+
+
 # A breaf article on on-going work and it's progress.
 
 
