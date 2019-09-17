@@ -18,10 +18,32 @@ optimizer : Stochastic gradient decent. <br />
 
 |approach|accuracy|
 |--|--|
-|[Resnext](#resnext)|91.18%|
+|[Resnext](#resnext)|91.11%|
 |[DFL](#dfl)|91.73%|
 |[TEN](#ten)|?%|
 |[DFL](#dfl)+[TEN](#ten)|91.85%|
+
+## Experiment 2
+Aim: Compare with state of the art approaches.
+### Experimental setup: 
+Dataset: rvlcdip <br />
+Main parameters:<br />
+Network: resnext101 trained on rvlcdip dataset (91.18%).<br />
+Input image size: 384*384<br />
+batch size: 32<br />
+momentum: 0.9<br />
+learning rate: 0.005<br />
+learning rate update: cosine decay [ref](#cosine-decay)<br />
+loss: cross entropy loss <br />
+Maximum number of iterations: 10 <br />
+optimizer : Stochastic gradient decent. <br />
+
+|approach|accuracy|
+|--|--|
+|[Resnext](#resnext)|91.18%|
+|[DFL](#dfl)|?%|
+|[TEN](#ten)|?%|
+|[DFL](#dfl)+[TEN](#ten)|?%|
 
 
 ##### DFL
