@@ -50,6 +50,14 @@ optimizer : Stochastic gradient decent. <br />
 |[DFL](#dfl)+[TEN](#ten)|?%|
 
 
+
+
+
+# Results
+
+# Conclusions
+
+# References
 ##### DFL
 ```
 @inproceedings{wang2018learning,
@@ -89,9 +97,3 @@ optimizer : Stochastic gradient decent. <br />
   year={2016}
 }
 ```
-
-
-# Results
-
-# Conclusions
-
