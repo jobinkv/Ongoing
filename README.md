@@ -25,6 +25,17 @@ optimizer : Stochastic gradient decent. <br />
 
 
 
+```
+@inproceedings{wang2018learning,
+  title={Learning a discriminative filter bank within a CNN for fine-grained recognition},
+  author={Wang, Yaming and Morariu, Vlad I and Davis, Larry S},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4148--4157},
+  year={2018}
+}
+```
+
+
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
 |approach|accuracy|accuracy with finetuning|Finetune with [res2net](#res2net) layer|
