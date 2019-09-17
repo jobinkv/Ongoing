@@ -5,7 +5,15 @@
 # Proposed Approach
 
 # Exeriments
+The proposed approach was evaluated on the document image classification task.
+The RVL-CDIP dataset consists of scanned grayscale images of documents
+from lawsuits against American Tobacco companies and is
+segregated into 16 categories or classes. The dataset is subdivided into
+Training, Validation and Test Sets each containing 320000,
+40000 and 40000 images respectively.
+
 ## Experiment 1
+
 Aim: Compare with state of the art approaches.
 ### Experimental setup: 
 Dataset: rvlcdip <br />
