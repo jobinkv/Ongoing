@@ -11,7 +11,7 @@ from lawsuits against American Tobacco companies and is
 segregated into 16 categories or classes. The dataset is subdivided into
 training, validation and test sets each containing 320000,
 40000 and 40000 images respectively.<br />
-As a preprocessing similar to [1](tensmeyer2017analysis), the images are resize to 384 \* 384.   
+As a preprocessing similar to [1](#tensmeyer2017analysis), the images are resize to 384 \* 384.   
 
 ## Experiment 1
 
