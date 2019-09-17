@@ -11,7 +11,7 @@ Input image size: 224*224<br />
 batch size: 32<br />
 momentum: 0.9<br />
 learning rate: 0.005<br />
-learning rate update: cosine decay [ref](#cosinedecay)<br />
+learning rate update: cosine decay [ref](#cosine_decay)<br />
 loss: cross entropy loss <br />
 Maximum number of iterations: 10 <br />
 optimizer : Stochastic gradient decent. <br />
