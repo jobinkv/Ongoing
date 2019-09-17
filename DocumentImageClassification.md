@@ -9,9 +9,9 @@ The proposed approach was evaluated on the document image classification task wi
 The RVL-CDIP dataset consists of scanned grayscale images of documents
 from lawsuits against American Tobacco companies and is
 segregated into 16 categories or classes. The dataset is subdivided into
-Training, Validation and Test Sets each containing 320000,
+training, validation and test sets each containing 320000,
 40000 and 40000 images respectively.<br />
-
+As a preprocessing similar to [1](tensmeyer2017analysis), the images are resize to 384 \* 384.   
 
 ## Experiment 1
 
@@ -104,5 +104,17 @@ optimizer : Stochastic gradient decent. <br />
   author={Loshchilov, Ilya and Hutter, Frank},
   journal={arXiv preprint arXiv:1608.03983},
   year={2016}
+}
+```
+##### tensmeyer2017analysis
+```
+@inproceedings{tensmeyer2017analysis,
+  title={Analysis of convolutional neural networks for document image classification},
+  author={Tensmeyer, Chris and Martinez, Tony},
+  booktitle={2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)},
+  volume={1},
+  pages={388--393},
+  year={2017},
+  organization={IEEE}
 }
 ```
