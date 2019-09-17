@@ -18,13 +18,13 @@ optimizer : Stochastic gradient decent. <br />
 
 |approach|accuracy|
 |--|--|
-|[Resnext](https://scholar.googleusercontent.com/scholar.bib?q=info:7cOWMQ1bebQJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlOFcMw:AAGBfm0AAAAAXYCAaMwPIWK0PeR6k5nh8iSFzVORNUHD&scisig=AAGBfm0AAAAAXYCAaKs4c_6xOdBTA-exDfhVc79ulLis&scisf=4&ct=citation&cd=-1&hl=en)|91.18%|
-|[DFL](https://scholar.googleusercontent.com/scholar.bib?q=info:NMEU4q_QWJ4J:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlNymcI:AAGBfm0AAAAAXYB3gcJeNkJb4Uq_qX8VTk3HgSErjBw6&scisig=AAGBfm0AAAAAXYB3gcqSiLvSqEUVQM62LdniOwcxFM4N&scisf=4&ct=citation&cd=-1&hl=en)|91.73%|
-|[TEN](https://scholar.googleusercontent.com/scholar.bib?q=info:gRUOCuIJ_ZAJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN9Wcc:AAGBfm0AAAAAXYB4QcdfG4aNs2C2hzVNXuVcvvtfRsHS&scisig=AAGBfm0AAAAAXYB4QQVQonrJ05r0prM986tNqnWYTet9&scisf=4&ct=citation&cd=-1&hl=en)|?%|
-|[DFL](https://scholar.googleusercontent.com/scholar.bib?q=info:NMEU4q_QWJ4J:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlNymcI:AAGBfm0AAAAAXYB3gcJeNkJb4Uq_qX8VTk3HgSErjBw6&scisig=AAGBfm0AAAAAXYB3gcqSiLvSqEUVQM62LdniOwcxFM4N&scisf=4&ct=citation&cd=-1&hl=en)+[TEN](https://scholar.googleusercontent.com/scholar.bib?q=info:gRUOCuIJ_ZAJ:scholar.google.com/&output=citation&scisdr=CgWP9T8GEJ-utlN9Wcc:AAGBfm0AAAAAXYB4QcdfG4aNs2C2hzVNXuVcvvtfRsHS&scisig=AAGBfm0AAAAAXYB4QQVQonrJ05r0prM986tNqnWYTet9&scisf=4&ct=citation&cd=-1&hl=en)|91.85%|
+|[Resnext](#resnext)|91.18%|
+|[DFL](#dfl)|91.73%|
+|[TEN](#ten)|?%|
+|[DFL](#dfl)+[TEN](#ten)|91.85%|
 
 
-
+##### DFL
 ```
 @inproceedings{wang2018learning,
   title={Learning a discriminative filter bank within a CNN for fine-grained recognition},
@@ -34,7 +34,16 @@ optimizer : Stochastic gradient decent. <br />
   year={2018}
 }
 ```
-
+##### TEN
+```
+@inproceedings{zhang2017deep,
+  title={Deep ten: Texture encoding network},
+  author={Zhang, Hang and Xue, Jia and Dana, Kristin},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={708--717},
+  year={2017}
+}
+```
 
 We choose a sample dataset from rvl-cdip with 10K trainig and 2k testing
 
