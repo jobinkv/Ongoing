@@ -12,4 +12,5 @@
 |10|He, Kaiming, et al. "Mask r-cnn." ICCV. 2017.|3178|?|
 |11|Iwana, Brian Kenji, et al. "Judging a Book by its Cover." arXiv preprint arXiv:1610.09204 (2016).|9|This paper introduce a problem of identify the genres of book from the cover page. and they solve it as a classification problem using deep neural network.|
 |12|Christlein, Vincent, and Andreas Maier. "Encoding CNN activations for writer recognition." DAS 2018.|7|This paper compare the established VLAD encoding with triangulation embedding. It further investigate generalized max pooling as an alternative to sum pooling and the impact of decorrelation and Exemplar SVMs in the problem of writter identification.|
-
+|13|Lu, Liqiong, et al. "Integrating Local CNN and Global CNN for Script Identification in Natural Scene Images." IEEE Access 7 (2019): 52669-52679.|1|The paper presents a novel framework integrating Local CNN and Global
+CNN both of which are based on ResNet-20 for script identification.|
