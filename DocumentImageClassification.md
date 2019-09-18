@@ -55,7 +55,7 @@ optimizer : Stochastic gradient decent. <br />
 |--|--|
 |[Resnext](#resnext)|91.18%|
 |[DFL](#dfl)|?%|
-|[TEN](#ten)|?%|
+|[TEN](#ten)|91.21%|
 |[DFL](#dfl)+[TEN](#ten)|?%|
 
 
