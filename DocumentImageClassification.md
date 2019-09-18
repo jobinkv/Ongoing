@@ -96,8 +96,10 @@ Das et al. [6] | 92.21 | Inter and intra domain transfer learning on region base
 
 [5] Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki, "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification", _arXiv preprint arXiv:1704.03557_, 2017.
 <Enter>
+  
 [6] Das, Arindam, et al. "Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks." 2018 24th International Conference on Pattern Recognition (ICPR). IEEE, 2018.
 <Enter>
+  
 
 ##### DFL
 ```
