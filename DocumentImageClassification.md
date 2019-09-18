@@ -76,8 +76,8 @@ Tensmeyer et al. [2] | 90.94 | Same model as above with increased image dimensio
 Csurka et al. [3]  | 90.70 | GoogleNet with weights transferred from ImageNet
 Afzal et al. [4] | 90.97 | VGG-16 with weights transferred from ImageNet
 Kölsch et al. [5] | 90.05 | Weights transferred from ImageNet to VGG-16 and adding ELM in place of MLP
-Das et al. | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
-Das et al. | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
+Das et al. [6] | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
+Das et al. [6] | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
 
 
 </td></tr> </table>
