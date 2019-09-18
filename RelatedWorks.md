@@ -10,3 +10,5 @@
 |8|Xiong, Yuwen, et al. "Upsnet: A unified panoptic segmentation network." CVPR. 2019.|13| On top of a single backbone residual network, design a deformable convolution based semantic segmentation head and a Mask R-CNN style instance segmentation head which solve these two subtasks simultaneously and achive accurate segmentation|
 |9|Huang, Zhaojin, et al. "Mask scoring r-cnn." CVPR 2019.|9|?|
 |10|He, Kaiming, et al. "Mask r-cnn." ICCV. 2017.|3178|?|
+|11|Iwana, Brian Kenji, et al. "Judging a Book by its Cover." arXiv preprint arXiv:1610.09204 (2016).|9|This paper introduce a problem of identify the gouner of book from the cover page. and they solve it as a classification problem using deep neural network.|
+
