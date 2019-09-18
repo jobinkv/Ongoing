@@ -33,7 +33,7 @@ optimizer : Stochastic gradient decent. <br />
 |--|--|
 |[Resnext](#resnext)|91.11%|
 |[DFL](#dfl)|91.73%|
-|[TEN](#ten)|?%|
+|[TEN](#ten)|91.2%|
 |[DFL](#dfl)+[TEN](#ten)|91.85%|
 
 ## Experiment 2
