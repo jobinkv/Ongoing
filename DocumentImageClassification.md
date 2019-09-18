@@ -76,8 +76,8 @@ Tensmeyer et al. [2] | 90.94 | Same model as above with increased image dimensio
 Csurka et al. [3]  | 90.70 | GoogleNet with weights transferred from ImageNet
 Afzal et al. [4] | 90.97 | VGG-16 with weights transferred from ImageNet
 Kölsch et al. [5] | 90.05 | Weights transferred from ImageNet to VGG-16 and adding ELM in place of MLP
-Proposed | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
-Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
+Das et al. | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
+Das et al. | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
 
 
 </td></tr> </table>
@@ -93,7 +93,9 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 
 [4] M. Z. Afzal, A. K¨olsch, S. Ahmed, and M. Liwicki, “Cutting the error by half: Investigation of very deep cnn and advanced training strategies for document image classification,” _arXiv preprint arXiv:1704.03557_, 2017.<Enter>
 
-[5] Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki, "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification", _arXiv preprint arXiv:1704.03557_, 2017.<Enter>
+[5] Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki, "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification", _arXiv preprint arXiv:1704.03557_, 2017.
+[6] Das, Arindam, et al. "Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks." 2018 24th International Conference on Pattern Recognition (ICPR). IEEE, 2018.
+<Enter>
 
 ##### DFL
 ```
